@@ -12,20 +12,17 @@ public class FizzBuzz {
 		for(int i = 0; i < numeri.length; i++) {
 			
 			numeri[i] = i+1;
-			if((numeri[i] % 3) == 0) {
-//				numeri[i] = (String) "Fizz";
-			}
 		}
 		
 		for(int i = 0; i < numeri.length; i++) {
 			
 			int value = numeri[i];
 			if (((value % 3) == 0) && ((value % 5) == 0)){
-				System.out.println("Fizz");
+				System.out.println("FizzBuzz");
 			}else if((value % 5) == 0) {
 				System.out.println("Buzz");
 			}else if((value % 3) == 0){				
-				System.out.println("FizzBuzz");
+				System.out.println("Fizz");
 			}else {
 				System.out.println(value);
 			}
